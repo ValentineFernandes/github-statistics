@@ -55,8 +55,8 @@ jobs:
     # Commit all changed files to the repository
     - name: Commit to the repo
       run: |
-        git config --global user.name "andatoshiki"
-        git config --global user.email "a_toshiki@outlook.com"
+        git config --global user.name "ValentineFernandes"
+        git config --global user.email "valentineinfantinejohn@gmail.com"
         git add .
         # Force the build to succeed, even if no files were changed
         git commit -m 'chore(img): updated latest stats' || true
